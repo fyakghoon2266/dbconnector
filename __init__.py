@@ -4,9 +4,9 @@ import logging
 required_packages = ['sqlalchemy_teradata']
 
 sqlalchemy_version = '1.3.24'
-cx_oracle_version = '8.3.0'
+oracledb_version = '1.2.2'
 
-required_packages.append(f'cx_Oracle=={cx_oracle_version}')
+required_packages.append(f'oracledb=={oracledb_version}')
 required_packages.append(f'sqlalchemy=={sqlalchemy_version}')
 
 try:
