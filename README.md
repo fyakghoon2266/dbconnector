@@ -26,8 +26,7 @@ Oracle Connection
 from dbconnector import connect_to_oracle
 
 # Provide Oracle username, password, and connection string
-oracle_connection_string = "oracle+cx_oracle://your_username:your_password@localhost:1521/ORCL"
-oracle_connection = connect_to_oracle("your_oracle_username", "your_oracle_password", oracle_connection_string)
+oracle_connection = connect_to_oracle("your_oracle_username", "your_oracle_password")
 if oracle_connection:
     print("Connected to Oracle successfully.")
 ```
@@ -40,7 +39,6 @@ Make sure to replace the placeholder values (your_teradata_username, your_terada
 Your project should have a structure similar to the following:
 
 ```markdown
-Copy code
 my_project/
 ├── dbconnector/
 │   ├── __init__.py
