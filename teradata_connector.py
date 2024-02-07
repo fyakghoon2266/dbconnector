@@ -22,3 +22,4 @@ def connect_to_teradata(username: str, password: str):
         # 處理 Teradata 連線錯誤
         logging.error(f"Teradata Connection Error: {str(e)}")
         return None
+        
